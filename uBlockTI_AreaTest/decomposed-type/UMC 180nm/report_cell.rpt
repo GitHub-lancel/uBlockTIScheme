@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : cell
+Design : uBlock_enc_decompose_top
+Version: L-2016.03-SP1
+Date   : Mon Aug 28 15:26:05 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U5                        INVX12          typical         43.243198 
+U6                        OAI2BB2XL       typical         23.284800 
+U7                        INVX2           typical         9.979200  
+occupied_reg              DFFRHQX1        typical         69.854401 n
+shared_enc_core_Inst      shared_enc_core                 145683.016668
+                                                                    h, n
+shared_key_expansion_Inst shared_key_expansion            57985.805475
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 6 cells                                             203815.183743
+1

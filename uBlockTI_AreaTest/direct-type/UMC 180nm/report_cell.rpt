@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : cell
+Design : uBlock_enc_top
+Version: L-2016.03-SP1
+Date   : Mon Aug 28 15:21:54 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+   mo - map_only
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U14                       NOR4BX1         typical         23.284800 
+U15                       OR2X1           typical         13.305600 
+U16                       NOR2X1          typical         9.979200  
+U17                       BUFX12          typical         39.916801 
+U18                       BUFX12          typical         39.916801 
+U19                       AND2X1          typical         13.305600 
+U20                       AND2X1          typical         13.305600 
+U21                       AND2X1          typical         13.305600 
+U22                       INVX2           typical         9.979200  
+U23                       AOI21X1         typical         16.632000 
+U24                       AND2X1          typical         13.305600 
+U25                       AND2X1          typical         13.305600 
+U26                       INVX2           typical         9.979200  
+U27                       ADDHXL          typical         39.916801 mo, r
+U28                       ADDHXL          typical         39.916801 mo, r
+U29                       ADDHXL          typical         39.916801 mo, r
+U30                       XOR2X1          typical         26.611200 
+occupied_reg              DFFRX1          typical         73.180801 n
+round_cnt_reg[0]          DFFRHQX1        typical         69.854401 n
+round_cnt_reg[1]          DFFRHQX1        typical         69.854401 n
+round_cnt_reg[2]          DFFRHQX1        typical         69.854401 n
+round_cnt_reg[3]          DFFRHQX1        typical         69.854401 n
+round_cnt_reg[4]          DFFRHQX1        typical         69.854401 n
+shared_enc_core_Inst      shared_enc_core                 192259.269633
+                                                                    h, n
+shared_key_expansion_Inst shared_key_expansion            62426.549495
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 25 cells                                            255484.155142
+1

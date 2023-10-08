@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : uBlock_enc_decompose_top
+Version: L-2016.03-SP1
+Date   : Mon Aug 28 15:26:05 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'uBlock_enc_decompose_top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    typical (File: /home/lancel/dclab/uBlockMaskingSchemedecompose_Yao_AreaTest/lib/UMC180nmLibrary_typical.db)
+
+Number of ports:                         8944
+Number of nets:                         15819
+Number of cells:                         7207
+Number of combinational cells:           5751
+Number of sequential cells:              1311
+Number of macros/black boxes:               0
+Number of buf/inv:                        779
+Number of references:                       6
+
+Combinational area:             128651.848278
+Buf/Inv area:                    15501.024561
+Noncombinational area:           75163.335464
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                203815.183743
+Total area:                 undefined
+1

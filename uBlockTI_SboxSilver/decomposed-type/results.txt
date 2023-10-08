@@ -1,0 +1,10 @@
+[     0.000] Netlist: /home/uBlock/decompose/nl/unflattened/SharedSbox.nl
+[     0.023] probing.standard (d ≤ 1) -- [1;32mPASS[0m.
+[     0.061] probing.robust   (d ≤ 1) -- [1;32mPASS[0m.
+[     0.064] NI.standard      (d ≤ 1) -- [1;31mFAIL[0m.
+[     0.066] NI.robust        (d ≤ 1) -- [1;31mFAIL[0m.
+[     0.069] SNI.standard     (d ≤ 1) -- [1;31mFAIL[0m.
+[     0.070] SNI.robust       (d ≤ 1) -- [1;31mFAIL[0m.
+[     0.071] PINI.standard    (d ≤ 1) -- [1;31mFAIL[0m.
+[     0.072] PINI.robust      (d ≤ 1) -- [1;31mFAIL[0m.
+[     0.072] uniformity               -- [1;32mPASS[0m.

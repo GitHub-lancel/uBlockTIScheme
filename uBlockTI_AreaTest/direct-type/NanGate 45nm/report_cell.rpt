@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : cell
+Design : uBlock_enc_top
+Version: L-2016.03-SP1
+Date   : Mon Aug 28 12:31:27 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+   mo - map_only
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U15                       NOR2_X1         NangateOpenCellLibrary
+                                                          0.798000  
+U16                       AND2_X1         NangateOpenCellLibrary
+                                                          1.064000  
+U17                       AND2_X1         NangateOpenCellLibrary
+                                                          1.064000  
+U18                       AND2_X1         NangateOpenCellLibrary
+                                                          1.064000  
+U19                       AND4_X1         NangateOpenCellLibrary
+                                                          1.596000  
+U20                       NOR2_X1         NangateOpenCellLibrary
+                                                          0.798000  
+U21                       OR2_X1          NangateOpenCellLibrary
+                                                          1.064000  
+U22                       AND2_X1         NangateOpenCellLibrary
+                                                          1.064000  
+U23                       AND2_X1         NangateOpenCellLibrary
+                                                          1.064000  
+U24                       AND2_X1         NangateOpenCellLibrary
+                                                          1.064000  
+U25                       XOR2_X1         NangateOpenCellLibrary
+                                                          1.596000  
+add_108/U1_1_1            HA_X1           NangateOpenCellLibrary
+                                                          2.660000  mo, r
+add_108/U1_1_2            HA_X1           NangateOpenCellLibrary
+                                                          2.660000  mo, r
+add_108/U1_1_3            HA_X1           NangateOpenCellLibrary
+                                                          2.660000  mo, r
+occupied_reg              DFFR_X1         NangateOpenCellLibrary
+                                                          5.320000  n
+round_cnt_reg[0]          DFFR_X1         NangateOpenCellLibrary
+                                                          5.320000  n
+round_cnt_reg[1]          DFFR_X1         NangateOpenCellLibrary
+                                                          5.320000  n
+round_cnt_reg[2]          DFFR_X1         NangateOpenCellLibrary
+                                                          5.320000  n
+round_cnt_reg[3]          DFFR_X1         NangateOpenCellLibrary
+                                                          5.320000  n
+round_cnt_reg[4]          DFFR_X1         NangateOpenCellLibrary
+                                                          5.320000  n
+shared_enc_core_Inst      shared_enc_core                 12103.531719
+                                                                    h, n
+shared_key_expansion_Inst shared_key_expansion            4432.091994
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 22 cells                                            16587.759714
+1

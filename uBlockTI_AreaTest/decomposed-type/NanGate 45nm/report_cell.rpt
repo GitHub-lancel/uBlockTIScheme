@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : cell
+Design : uBlock_enc_decompose_top
+Version: L-2016.03-SP1
+Date   : Mon Aug 28 12:47:30 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U6                        OAI22_X1        NangateOpenCellLibrary
+                                                          1.330000  
+U7                        INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+occupied_reg              DFFR_X1         NangateOpenCellLibrary
+                                                          5.320000  n
+shared_enc_core_Inst      shared_enc_core                 9310.797746
+                                                                    h, n
+shared_key_expansion_Inst shared_key_expansion            4084.430012
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 5 cells                                             13402.409758
+1

@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : uBlock_enc_top
+Version: L-2016.03-SP1
+Date   : Mon Aug 28 12:31:26 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'uBlock_enc_top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/lancel/dclab/uBlockMaskingScheme_Yao_AreaTest/lib/NangateOpenCellLibrary_fast.db)
+
+Number of ports:                         7671
+Number of nets:                         16599
+Number of cells:                         9432
+Number of combinational cells:           8133
+Number of sequential cells:              1234
+Number of macros/black boxes:               0
+Number of buf/inv:                       1116
+Number of references:                       9
+
+Combinational area:              10804.919825
+Buf/Inv area:                      599.032005
+Noncombinational area:            5782.839889
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 16587.759714
+Total area:                 undefined
+1
